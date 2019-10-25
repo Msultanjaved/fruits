@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header-1{
+    background-color: aqua;
+    height: 110px;
+}
+#span-1 input[type=text] {
+    background-image: url("icons-fruit organic/search-1.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 200px 6px;
+    padding: 12px 20px 14px 10px;
+    border-radius: 25px;
+    width: 250px;
+    height: 40px;
+    margin-top: 35px;
+    outline: none;
+    border: none;
+}
+#span-0{
+    position: absolute;
+    margin: 0px 10px auto 150px;
+}
+#span-2 input[type=text] {
+    background-image: url("icons-fruit organic/cart-details.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 25px 6px;
+    text-align: center;
+    padding: 12px 20px 14px 10px;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    margin-top: 35px;
+    outline: none;
+    border: none;
+}
+#navbar{
+    list-style-type: none;
+}
+#navbar li{
+    float: left;
+    margin-top: 40px;
+}
+a:link,a:visited{
+    display: block;
+    width: 138px;
+    color: black;
+    font-weight: bold;
+    font-family:  Gabriola;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+}
+#circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url("icons-fruit organic/fruit-organic.png");
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 30px;
+}
+#main #h1{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 130px;
+    font-weight: bold;
+}
+#market{
+    background-image: url("icons-fruit organic/market.jpg");
+    background-size: cover;
+    padding-top: 50%;
+
+}
+#main #h2{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+#table{
+    float: left;
+}
+
+#table, tr, td{
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 110px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#table th{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 7px;
+    padding-right: 110px;
+    text-align: center;
+    color: gray;
+}
+
+#image{
+    background-image: url("icons-fruit organic/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button{
+    padding: 10px 30px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#button:hover{
+    background-color: green;
+}
+
+#footer{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+#row h3{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
